@@ -1,14 +1,14 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import Form from '../Form/Form';
-import { useFormWithValidation } from '../../utils/formValidator';
-import { registerUser, authorizeUser } from '../../utils/MainApi';
-import handleError from '../../utils/handleError';
+import Form from '../../../components/Form/Form';
+import { useFormWithValidation } from '../../../utils/formValidator';
+import { registerUser, authorizeUser } from '../../../api/MainApi';
+import handleError from '../../../utils/handleError';
 import {
   NAME_RULE,
   EMAIL_RULE,
-} from '../../constans';
-import '../Login/Login.css';
+} from '../../../constans';
+import '../../login/Login/Login.css';
 
 export default function Register({
   setLoggedIn,

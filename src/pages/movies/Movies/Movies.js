@@ -1,12 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
-import SearchForm from '../SearchForm/SearchForm';
-import MoviesCardList from '../MoviesCardList/MoviesCardList';
+import SearchForm from '../../../components/SearchForm/SearchForm';
+import MoviesCardList from '../../../components/MoviesCardList/MoviesCardList';
 import MoreMovies from '../MoreMovies/MoreMovies';
-import { getAllMovies } from '../../utils/MoviesApi';
-import Preloader from '../Preloader/Preloader';
-import { useResize } from '../../utils/checkResize';
-import filterMovies from '../../utils/filterMovies';
+import { getAllMovies } from '../../../api/MoviesApi';
+import Preloader from '../../../components/Preloader/Preloader';
+import { useResize } from '../../../utils/checkResize';
+import filterMovies from '../../../utils/filterMovies';
 import {
   SCREEN_DESCTOP,
   SCREEN_TABLET,
@@ -20,7 +20,7 @@ import {
   ADDITIONAL_ITEMS_MOBILE,
   ADDITIONAL_ITEMS_MINIMUM,
   ONE_ADDITIONAL_ELEMENT,
-} from '../../constans';
+} from '../../../constans';
 import './Movies.css';
 
 export default function Movies({

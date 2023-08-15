@@ -1,5 +1,5 @@
 import './AboutMe.css';
-import photo from '../../images/me-photo.jpg';
+import photo from '../../../images/me-photo.jpg';
 
 export default function AboutMe() {
   return (

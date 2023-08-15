@@ -52,7 +52,7 @@
 }
 
 .portfolio__link-arrow {
-  background-image: url(../../images/arrow-link.svg);
+  background-image: url(../../../images/arrow-link.svg);
   min-width: 20px;
   min-height: 20px;
   background-repeat: no-repeat;

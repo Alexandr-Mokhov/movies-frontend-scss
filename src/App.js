@@ -1,22 +1,21 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
-import Header from '../Header/Header';
-import Main from '../Main/Main';
-import Movies from '../Movies/Movies';
-import SavedMovies from '../SavedMovies/SavedMovies';
-import Profile from '../Profile/Profile';
-import Register from '../Register/Register';
-import Login from '../Login/Login';
-import NotFound from '../NotFound/NotFound';
-import Footer from '../Footer/Footer';
-import { CurrentUserContext } from '../../contexts/CurrentUserContext';
-import ProtectedRouteElement from '../ProtectedRoute/ProtectedRoute';
-import { checkToken } from '../../utils/MainApi';
-import { getSavedMovies } from '../../utils/MainApi';
-import InfoTooltip from '../InfoTooltip/InfoTooltip';
-import { MOVIE_DOWNLOAD_ERROR, TOKEN_VERIFICATION_ERROR } from '../../constans';
-import './App.css';
+import Header from './components/Header/Header';
+import Main from './pages/main/Main/Main';
+import Movies from './pages/movies/Movies/Movies';
+import SavedMovies from '../src/pages/savedMovies/SavedMovies/SavedMovies';
+import Profile from './pages/profile/Profile/Profile';
+import Register from './pages/register/Register/Register';
+import Login from './pages/login/Login/Login';
+import NotFound from './pages/notFound/NotFound/NotFound';
+import Footer from './components/Footer/Footer';
+import { CurrentUserContext } from './contexts/CurrentUserContext';
+import ProtectedRouteElement from './components/ProtectedRoute/ProtectedRoute';
+import { checkToken } from './api/MainApi';
+import { getSavedMovies } from './api/MainApi';
+import InfoTooltip from './components/InfoTooltip/InfoTooltip';
+import { MOVIE_DOWNLOAD_ERROR, TOKEN_VERIFICATION_ERROR } from './constans';
 
 export default function App() {
   const navigate = useNavigate();

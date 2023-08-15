@@ -1,13 +1,13 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useContext, useEffect, useState } from 'react';
-import { useFormWithValidation } from '../../utils/formValidator';
-import { updateUserInfo } from '../../utils/MainApi';
-import { CurrentUserContext } from '../../contexts/CurrentUserContext';
-import handleError from '../../utils/handleError';
+import { useFormWithValidation } from '../../../utils/formValidator';
+import { updateUserInfo } from '../../../api/MainApi';
+import { CurrentUserContext } from '../../../contexts/CurrentUserContext';
+import handleError from '../../../utils/handleError';
 import {
   NAME_RULE,
   EMAIL_RULE,
-} from '../../constans';
+} from '../../../constans';
 import './Profile.css';
 
 export default function Profile({ isLoading, setIsLoading, setCurrentUser, onSignOut }) {

@@ -1,10 +1,10 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import { useFormWithValidation } from '../../utils/formValidator';
-import Form from '../Form/Form';
-import { authorizeUser } from '../../utils/MainApi';
-import handleError from '../../utils/handleError';
-import { EMAIL_RULE } from '../../constans';
+import { useFormWithValidation } from '../../../utils/formValidator';
+import Form from '../../../components/Form/Form';
+import { authorizeUser } from '../../../api/MainApi';
+import handleError from '../../../utils/handleError';
+import { EMAIL_RULE } from '../../../constans';
 import './Login.css';
 
 export default function Login({

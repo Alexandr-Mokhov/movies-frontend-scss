@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { addStatusFavorite, deleteStatusFavorite } from '../../utils/MainApi';
+import { addStatusFavorite, deleteStatusFavorite } from '../../api/MainApi';
 import {
   MINUTES_PER_HOUR,
   FAVORITE_DELETE_ERROR,
