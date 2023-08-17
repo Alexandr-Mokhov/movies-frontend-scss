@@ -1,8 +1,19 @@
-@import url(./vendor/normalize.css);
-@import url(./vendor/fonts/inter.css);
-
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./vendor/fonts/Inter-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./vendor/fonts/Inter-Medium.woff") format("woff");
+}
 .page {
-  font-family: 'Inter', 'Arial', sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   color: #000;
   background-color: #FFF;
   -webkit-font-smoothing: antialiased;
@@ -29,8 +40,4 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px #FFF inset;
-}
-
-/* * {
-  outline: 1px dashed #90E0FF;
-} */
+}/*# sourceMappingURL=index.css.map */
