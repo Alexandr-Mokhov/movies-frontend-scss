@@ -1,33 +1,35 @@
+@import "../../sassStyles/vars";
+
 .header {
-  background-color: #073042;
+  background-color: $background-dark;
   display: flex;
   justify-content: center;
   padding: 0 70px;
 }
 
 .header_light {
-  background-color: #FFF;
+  background-color: $background-light;
 }
 
 .header__container {
   min-height: 74px;
-  width: 1140px;
+  width: $content-desctop;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .header__logo {
-  background-image: url(../../images/logo-main.svg);
+  background-image: url(./images/logo-main.svg);
   min-width: 38px;
   min-height: 38px;
   background-repeat: no-repeat;
   background-size: contain;
-  transition: .5s ease;
+  transition: $transition-setting;
 }
 
 .header__logo:hover {
-  opacity: .7;
+  opacity: $opacity-value;
 }
 
 .header__links-authorization {
@@ -41,23 +43,23 @@
   line-height: 16px;
   margin: 0;
   cursor: pointer;
-  transition: .5s ease;
+  transition: $transition-setting;
   text-decoration: none;
-  color: #000;
+  color: $link-dark;
 }
 
 .header__link:hover {
-  opacity: .7;
+  opacity: $opacity-value;
 }
 
 .header__link_type_light {
-  color: #FFF;
+  color: $link-light;
 }
 
 .header__link_type_login {
   min-height: 32px;
   width: 76px;
-  background-color: #2BE080;
+  background-color: $color-green;
   border-radius: 3px;
   display: flex;
   justify-content: center;
@@ -65,25 +67,25 @@
   margin-left: 30px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: $screen-desctop) {
   .header__container {
-    width: 100%;
+    width: $full-width;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: $screen-tablet) {
   .header {
     padding: 0 50px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: $screen-tablet-mini) {
   .header {
     padding: 0 30px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: $screen-mobile) {
   .header {
     padding: 0 14px;
   }
