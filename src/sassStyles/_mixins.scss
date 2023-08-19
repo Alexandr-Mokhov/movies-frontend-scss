@@ -1,0 +1,34 @@
+@import "../sassStyles/vars";
+
+@mixin font-links($fz, $fw, $lh) {
+	font-size: $fz;
+  font-weight: $fw;
+  line-height: $lh;
+	cursor: pointer;
+  transition: $transition-setting;
+  text-decoration: none;
+}
+
+@mixin desctopBreakPoint() {
+	@media screen and (max-width: $screen-desctop) {
+		@content;
+	}
+}
+
+@mixin tabletBreakPoint() {
+	@media screen and (max-width: $screen-tablet) {
+		@content;
+	}
+}
+
+@mixin tabletMiniBreakPoint() {
+	@media screen and (max-width: $screen-tablet-mini) {
+		@content;
+	}
+}
+
+@mixin mobileBreakPoint() {
+	@media screen and (max-width: $screen-mobile) {
+		@content;
+	}
+}

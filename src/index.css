@@ -265,10 +265,10 @@ select:-webkit-autofill:focus {
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
-  margin: 0;
   cursor: pointer;
   transition: 0.5s ease;
   text-decoration: none;
+  margin: 0;
   color: #000;
 }
 
