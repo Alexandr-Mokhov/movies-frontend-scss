@@ -9,26 +9,8 @@
   text-decoration: none;
 }
 
-@mixin desctopBreakPoint() {
-	@media screen and (max-width: $screen-desctop) {
-		@content;
-	}
-}
-
-@mixin tabletBreakPoint() {
-	@media screen and (max-width: $screen-tablet) {
-		@content;
-	}
-}
-
-@mixin tabletMiniBreakPoint() {
-	@media screen and (max-width: $screen-tablet-mini) {
-		@content;
-	}
-}
-
-@mixin mobileBreakPoint() {
-	@media screen and (max-width: $screen-mobile) {
+@mixin breakPoint($screen) {
+	@media screen and (max-width: $screen) {
 		@content;
 	}
 }
