@@ -9,6 +9,12 @@
   text-decoration: none;
 }
 
+@mixin font-text($fz, $fw, $lh) {
+	font-size: $fz;
+  font-weight: $fw;
+  line-height: $lh;
+}
+
 @mixin breakPoint($screen) {
 	@media screen and (max-width: $screen) {
 		@content;
