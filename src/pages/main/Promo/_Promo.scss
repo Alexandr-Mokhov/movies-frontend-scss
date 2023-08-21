@@ -22,14 +22,14 @@
   }
 
   &__title {
-    @include font-text(50px, 400, 58px);
+    @include font-text(50px, 58px);
     color: $text-light;
     max-width: 640px;
     margin: 0 20px 0 0
   }
 
   &__subtitle {
-    @include font-text(13px, 400, 16px);
+    @include font-text(13px, 16px);
     margin: 36px 0 0;
     color: $text-light;
     max-width: 310px;
@@ -57,7 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @include font-links(12px, 500, 16px);
+    @include font-links(12px, 16px);
     color: #FFF;
     box-sizing: border-box;
 
@@ -74,7 +74,7 @@
 
   @include breakPoint($screen-desctop-mini) {
     &__title {
-      @include font-text(40px, 400, 50px);
+      @include font-text(40px, 50px);
       max-width: 520px;
     }
   }
@@ -125,8 +125,7 @@
   
     &__title {
       margin: 45px 0 0;
-      font-size: 28px;
-      line-height: 38px;
+      @include font-text(28px, 38px);
     }
   
     &__subtitle {

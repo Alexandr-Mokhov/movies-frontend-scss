@@ -38,7 +38,7 @@
   }
 
   &__link {
-    @include font-links(12px, 500, 16px);
+    @include font-links(12px, 16px);
     margin: 0;
     color: $link-dark;
 

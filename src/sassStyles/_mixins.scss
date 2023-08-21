@@ -1,18 +1,18 @@
 @import "../sassStyles/vars";
 
-@mixin font-links($fz, $fw, $lh) {
+@mixin font-links($fz, $lh, $fw: 500) {
 	font-size: $fz;
-  font-weight: $fw;
   line-height: $lh;
+	font-weight: $fw;
 	cursor: pointer;
   transition: $transition-setting;
   text-decoration: none;
 }
 
-@mixin font-text($fz, $fw, $lh) {
+@mixin font-text($fz, $lh, $fw: 400) {
 	font-size: $fz;
-  font-weight: $fw;
   line-height: $lh;
+	font-weight: $fw;
 }
 
 @mixin breakPoint($screen) {
