@@ -222,11 +222,9 @@ select:-webkit-autofill:focus {
   justify-content: center;
   padding: 0 70px;
 }
-
 .header_light {
   background-color: #FFF;
 }
-
 .header__container {
   min-height: 74px;
   width: 1140px;
@@ -234,7 +232,6 @@ select:-webkit-autofill:focus {
   align-items: center;
   justify-content: space-between;
 }
-
 .header__logo {
   background-image: url(./images/logo-main.svg);
   min-width: 38px;
@@ -243,16 +240,13 @@ select:-webkit-autofill:focus {
   background-size: contain;
   transition: 0.5s ease;
 }
-
 .header__logo:hover {
   opacity: 0.7;
 }
-
 .header__links-authorization {
   display: flex;
   align-items: center;
 }
-
 .header__link {
   font-size: 12px;
   font-weight: 500;
@@ -263,15 +257,12 @@ select:-webkit-autofill:focus {
   margin: 0;
   color: #000;
 }
-
 .header__link:hover {
   opacity: 0.7;
 }
-
 .header__link_type_light {
   color: #FFF;
 }
-
 .header__link_type_login {
   min-height: 32px;
   width: 76px;
@@ -282,7 +273,6 @@ select:-webkit-autofill:focus {
   align-items: center;
   margin-left: 30px;
 }
-
 @media screen and (max-width: 1280px) {
   .header__container {
     width: 100%;
@@ -311,20 +301,19 @@ select:-webkit-autofill:focus {
     font-size: 10px;
   }
 }
+
 .promo {
   display: flex;
   justify-content: center;
   background-color: #073042;
   padding: 75px 70px;
 }
-
 .promo__container {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   width: 1140px;
 }
-
 .promo__logo {
   min-width: 310px;
   min-height: 304px;
@@ -332,7 +321,6 @@ select:-webkit-autofill:focus {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 .promo__title {
   font-size: 50px;
   font-weight: 400;
@@ -341,7 +329,6 @@ select:-webkit-autofill:focus {
   max-width: 640px;
   margin: 0 20px 0 0;
 }
-
 .promo__subtitle {
   font-size: 13px;
   font-weight: 400;
@@ -351,20 +338,17 @@ select:-webkit-autofill:focus {
   max-width: 310px;
   opacity: 0.5;
 }
-
 .promo__nav-tab {
   padding: 0;
   margin: 146px 0 0;
   display: flex;
   gap: 10px;
 }
-
 .promo__nav-tab-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .promo__button {
   width: 129px;
   min-height: 36px;
@@ -382,11 +366,9 @@ select:-webkit-autofill:focus {
   color: #FFF;
   box-sizing: border-box;
 }
-
 .promo__button:hover {
   opacity: 0.7;
 }
-
 @media screen and (max-width: 1280px) {
   .promo__container {
     width: 100%;
