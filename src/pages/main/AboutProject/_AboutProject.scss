@@ -25,14 +25,14 @@
   }
 
   &__info-title {
-    margin: 70px 0 0;
     @include font-text(20px, 24px);
+    margin: 70px 0 0;
     letter-spacing: -0.8px;
   }
 
   &__info-subtitle {
-    margin: 26px 0 0;
     @include font-text(14px, 20px);
+    margin: 26px 0 0;
   }
 
   &__time-line {
@@ -43,8 +43,8 @@
   }
 
   &__time-line-text {
-    margin: 0;
     @include font-text(14px, 36px);
+    margin: 0;
     text-align: center;
     background-color: #F2F2F2;
 
@@ -60,10 +60,10 @@
   }
 
   &__time-name-text {
-    margin: 0;
     @include font-text(14px, 17px, 500);
+    margin: 0;
     text-align: center;
-    color: #A0A0A0;
+    color: $text-grey;
   }
 
   @include breakPoint($screen-desctop) {
@@ -108,8 +108,8 @@
     }
 
     &__info-title {
-      margin: 58px 0 0;
       @include font-text(18px, 22px);
+      margin: 58px 0 0;
       letter-spacing: -0.7px;
     }
 

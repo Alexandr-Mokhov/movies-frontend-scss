@@ -456,17 +456,17 @@ select:-webkit-autofill:focus {
   gap: 40px;
 }
 .about-project__info-title {
-  margin: 70px 0 0;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
+  margin: 70px 0 0;
   letter-spacing: -0.8px;
 }
 .about-project__info-subtitle {
-  margin: 26px 0 0;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  margin: 26px 0 0;
 }
 .about-project__time-line {
   margin-top: 110px;
@@ -475,10 +475,10 @@ select:-webkit-autofill:focus {
   grid-template-columns: 1fr 4fr;
 }
 .about-project__time-line-text {
-  margin: 0;
   font-size: 14px;
   line-height: 36px;
   font-weight: 400;
+  margin: 0;
   text-align: center;
   background-color: #F2F2F2;
 }
@@ -491,10 +491,10 @@ select:-webkit-autofill:focus {
   grid-template-columns: 1fr 4fr;
 }
 .about-project__time-name-text {
-  margin: 0;
   font-size: 14px;
   line-height: 17px;
   font-weight: 500;
+  margin: 0;
   text-align: center;
   color: #A0A0A0;
 }
@@ -536,10 +536,10 @@ select:-webkit-autofill:focus {
     gap: 0;
   }
   .about-project__info-title {
-    margin: 58px 0 0;
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
+    margin: 58px 0 0;
     letter-spacing: -0.7px;
   }
   .about-project__info-subtitle {
@@ -582,10 +582,10 @@ select:-webkit-autofill:focus {
   align-items: center;
 }
 .techs__title {
-  margin: 0;
   font-size: 22px;
   line-height: 27px;
   font-weight: 400;
+  margin: 0;
   min-height: 50px;
   border-bottom: 1px solid #000;
   letter-spacing: -0.88px;
@@ -619,15 +619,15 @@ select:-webkit-autofill:focus {
   justify-content: center;
 }
 .techs__grid-item {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
   min-height: 60px;
   border-radius: 10px;
   background-color: #E8E8E8;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 400;
   letter-spacing: -0.56px;
 }
 @media screen and (max-width: 1280px) {
@@ -655,10 +655,10 @@ select:-webkit-autofill:focus {
     grid-template-columns: repeat(auto-fit, 84px);
   }
   .techs__grid-item {
-    min-height: 57px;
     font-size: 12px;
     line-height: 15px;
     font-weight: 400;
+    min-height: 57px;
     box-sizing: border-box;
   }
 }
@@ -673,10 +673,10 @@ select:-webkit-autofill:focus {
     letter-spacing: -0.72px;
   }
   .techs__subtitle {
-    margin: 60px 0 0;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
+    margin: 60px 0 0;
     letter-spacing: -1.2px;
   }
   .techs__subtitle-info {
@@ -845,5 +845,102 @@ select:-webkit-autofill:focus {
 @media screen and (max-width: 450px) {
   .about-me__photo {
     width: 100%;
+  }
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 0 70px 88px;
+}
+.portfolio__container {
+  width: 1140px;
+}
+.portfolio__title {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #A0A0A0;
+  margin: 0 0 29px;
+}
+.portfolio__list {
+  list-style-type: none;
+  padding: 0;
+}
+.portfolio__item {
+  border-top: 1px solid #E8E8E8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 89px;
+}
+.portfolio__item:first-of-type {
+  border-top: 1px solid #FFF;
+}
+.portfolio__link {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.5s ease;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  transition: 0.5s ease;
+  letter-spacing: -1.2px;
+}
+.portfolio__link:hover {
+  opacity: 0.7;
+}
+.portfolio__link-arrow {
+  background-image: url(./images/arrow-link.svg);
+  min-width: 20px;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 17px;
+}
+@media screen and (max-width: 1280px) {
+  .portfolio__container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .portfolio {
+    padding: 0 50px 55px;
+  }
+  .portfolio__title {
+    margin: 0 0 33px;
+  }
+  .portfolio__link {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio {
+    padding: 0 14px 30px;
+  }
+  .portfolio__title {
+    font-size: 14px;
+    margin: 0 0 20px;
+  }
+  .portfolio__item {
+    min-height: 68px;
+  }
+  .portfolio__link {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+  }
+  .portfolio__link-arrow {
+    width: 12px;
+    min-height: 12px;
+    margin-top: 8px;
   }
 }/*# sourceMappingURL=index.css.map */
