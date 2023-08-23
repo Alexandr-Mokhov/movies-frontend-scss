@@ -5,7 +5,6 @@ import Form from '../../../components/Form/Form';
 import { authorizeUser } from '../../../api/MainApi';
 import handleError from '../../../utils/handleError';
 import { EMAIL_RULE } from '../../../constans';
-import './Login.css';
 
 export default function Login({
   setLoggedIn,

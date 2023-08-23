@@ -8,7 +8,6 @@ import {
   NAME_RULE,
   EMAIL_RULE,
 } from '../../../constans';
-import '../../login/Login/Login.css';
 
 export default function Register({
   setLoggedIn,
