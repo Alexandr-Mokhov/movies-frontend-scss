@@ -1,5 +1,4 @@
 import { useLocation } from 'react-router-dom';
-import './Footer.css';
 
 export default function Footer() {
   const { pathname } = useLocation();
