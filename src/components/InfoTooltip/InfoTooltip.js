@@ -1,5 +1,3 @@
-import './InfoTooltip.css';
-
 export default function InfoTooltip({ 
   isOpen,
   infoTooltipMessage,
