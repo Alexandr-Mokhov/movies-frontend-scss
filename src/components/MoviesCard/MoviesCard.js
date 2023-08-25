@@ -7,7 +7,6 @@ import {
   FAVORITE_DELETE_ERROR,
   ERROR_ADDING_FAVORITES,
 } from '../../constans';
-import './MoviesCard.css';
 
 export default function MoviesCard({
   movie,
