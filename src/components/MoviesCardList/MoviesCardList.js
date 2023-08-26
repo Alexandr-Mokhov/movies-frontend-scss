@@ -1,6 +1,5 @@
 import { useLocation } from 'react-router-dom';
 import MoviesCard from '../MoviesCard/MoviesCard';
-import './MoviesCardList.css';
 
 export default function MoviesCardList({
   foundMovies,
