@@ -1,6 +1,5 @@
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import './Navigation.css';
 
 export default function Navigation() {
   const [navMenu, setNavMenu] = useState(false);
