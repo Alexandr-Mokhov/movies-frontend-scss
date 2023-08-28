@@ -20,3 +20,11 @@
 		@content;
 	}
 }
+
+@mixin preloaderTransform($value) {
+	-webkit-transform: scale($value, $value);
+	-moz-transform: scale($value, $value);
+	-ms-transform: scale($value, $value);
+	-o-transform: scale($value, $value);
+	transform: scale($value, $value);
+}

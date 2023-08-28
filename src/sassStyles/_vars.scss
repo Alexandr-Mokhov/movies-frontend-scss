@@ -4,6 +4,7 @@ $background-light: #FFF;
 $color-button-green: #2BE080;
 $color-button-light: #FFF;
 $color-button-blue: #3456F3;
+$color-preloader: #2BE080;
 $link-dark: #000;
 $link-light: #FFF;
 $text-light: #FFF;
@@ -27,3 +28,6 @@ $screen-mobile-mini: 450px;
 $transition-setting: .5s ease;
 $opacity-value: .7;
 
+// Размеры прелоадера
+$preloader-width: 100px;
+$preloader-height: 100px;

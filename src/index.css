@@ -1661,4 +1661,66 @@ select:-webkit-autofill:focus {
   .navigation__account {
     margin: 4vh 0 6.2vh;
   }
+}
+
+@keyframes preloader-inside-white {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes preloader-inside-green {
+  0% {
+    transform: scale(0, 0);
+  }
+  30% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  z-index: 10;
+  padding: 55px 20px 20px;
+  margin: 0 auto;
+}
+.preloader__container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.preloader__round {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #2BE080;
+  border-radius: 50px;
+}
+.preloader__round::after, .preloader__round::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+}
+.preloader__round::after {
+  background: #FFF;
+  animation: preloader-inside-white 1s ease-in-out infinite;
+}
+.preloader__round::before {
+  z-index: 10;
+  background: #2BE080;
+  animation: preloader-inside-green 1s ease-in-out infinite;
 }/*# sourceMappingURL=index.css.map */
