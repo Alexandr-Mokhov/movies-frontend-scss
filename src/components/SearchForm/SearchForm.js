@@ -1,5 +1,4 @@
 import { useLocation } from 'react-router-dom';
-import './SearchForm.css';
 
 export default function SearchForm({
   value,
