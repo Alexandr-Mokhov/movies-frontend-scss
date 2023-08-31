@@ -21,7 +21,6 @@ import {
   ADDITIONAL_ITEMS_MINIMUM,
   ONE_ADDITIONAL_ELEMENT,
 } from '../../../constans';
-import './Movies.css';
 
 export default function Movies({
   savedFilms,
