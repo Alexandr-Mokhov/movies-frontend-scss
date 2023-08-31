@@ -1,5 +1,3 @@
-import './MoreMovies.css';
-
 export default function MoreMovies({ handleClickMore }) {
   return (
     <section className="more-movies">
