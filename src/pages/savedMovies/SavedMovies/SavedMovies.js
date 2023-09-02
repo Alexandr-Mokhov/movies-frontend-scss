@@ -4,7 +4,6 @@ import SearchForm from '../../../components/SearchForm/SearchForm';
 import MoviesCardList from '../../../components/MoviesCardList/MoviesCardList';
 import filterMovies from '../../../utils/filterMovies';
 import { SHORT_FILMS_DURATION } from '../../../constans';
-import './SavedMovies.css';
 
 export default function SavedMovies({
   savedFilms,

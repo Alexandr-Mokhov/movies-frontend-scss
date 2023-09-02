@@ -8,7 +8,6 @@ import {
   NAME_RULE,
   EMAIL_RULE,
 } from '../../../constans';
-import './Profile.css';
 
 export default function Profile({ isLoading, setIsLoading, setCurrentUser, onSignOut }) {
   const [profileEdit, setProfileEdit] = useState(false);
