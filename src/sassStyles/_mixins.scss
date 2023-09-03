@@ -9,10 +9,20 @@
   text-decoration: none;
 }
 
+@mixin font-links-breakPoint($fz, $lh) {
+	font-size: $fz;
+  line-height: $lh;
+}
+
 @mixin font-text($fz, $lh, $fw: 400) {
 	font-size: $fz;
   line-height: $lh;
 	font-weight: $fw;
+}
+
+@mixin font-text-breakPoint($fz, $lh) {
+	font-size: $fz;
+  line-height: $lh;
 }
 
 @mixin breakPoint($screen) {

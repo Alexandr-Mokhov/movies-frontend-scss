@@ -94,11 +94,11 @@
     &__name {
       font-size: 12px;
       line-height: 15px;
-      @include font-text(12px, 15px);
+      @include font-text-breakPoint(12px, 15px);
     }
   
     &__time {
-      @include font-text(10px, 12px);
+      @include font-text-breakPoint(10px, 12px);
     }
   }
 }

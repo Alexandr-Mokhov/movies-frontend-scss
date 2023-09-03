@@ -81,14 +81,14 @@
     }
   
     &__title {
-      @include font-text(20px, 24px, 900);
+      @include font-text-breakPoint(20px, 24px);
     }
   }
 
   @include breakPoint(315px) {
     &__title {
       max-width: calc(100vw - 100px);
-      @include font-text(18px, 22px, 900);
+      @include font-text-breakPoint(18px, 22px);
       text-overflow: ellipsis;
       overflow: hidden;
     }

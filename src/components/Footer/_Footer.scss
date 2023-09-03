@@ -69,7 +69,7 @@
     }
 
     &__title {
-      @include font-text(12px, 15px);
+      @include font-text-breakPoint(12px, 15px);
     }
 
     &__info {
@@ -78,7 +78,7 @@
     }
 
     &__copyright {
-      @include font-text(12px, 15px);
+      @include font-text-breakPoint(12px, 15px);
       margin: 28px 0 0;
     }
 
@@ -97,7 +97,7 @@
     }
 
     &__link {
-      @include font-links(12px, 15px);
+      @include font-links-breakPoint(12px, 15px);
     }
   }
 }

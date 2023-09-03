@@ -143,9 +143,7 @@
   
     &__link {
       display: block;
-      font-size: 18px;
-      font-weight: 500;
-      line-height: 26px;
+      @include font-text(18px, 26px, 500);
       min-height: 26px;
       margin: 0 0 24px 0;
       color: $link-dark;

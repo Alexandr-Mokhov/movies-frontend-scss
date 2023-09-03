@@ -82,7 +82,7 @@
     }
 
     &__info-subtitle {
-      @include font-text(12px, 18px);
+      @include font-text-breakPoint(12px, 18px);
       margin: 22px 0 0;
     }
 
@@ -97,7 +97,7 @@
     }
 
     &__title {
-      @include font-text(18px, 22px);
+      @include font-text-breakPoint(18px, 22px);
       letter-spacing: -0.72px;
     }
 
@@ -108,13 +108,13 @@
     }
 
     &__info-title {
-      @include font-text(18px, 22px);
+      @include font-text-breakPoint(18px, 22px);
       margin: 58px 0 0;
       letter-spacing: -0.7px;
     }
 
     &__info-subtitle {
-      @include font-text(11px, 16px);
+      @include font-text-breakPoint(11px, 16px);
       margin: 16px 0 0;
     }
 
@@ -125,7 +125,7 @@
     }
 
     &__time-line-text {
-      @include font-text(11px, 35px);
+      @include font-text-breakPoint(11px, 35px);
     }
 
     &__time-name {
@@ -134,7 +134,7 @@
     }
 
     &__time-name-text {
-      @include font-text(11px, 13px, 500);
+      @include font-text-breakPoint(11px, 13px);
     }
   }
 }

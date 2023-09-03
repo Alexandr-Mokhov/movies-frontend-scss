@@ -91,7 +91,7 @@
     }
   
     &__link {
-      @include font-links(16px, 28px);
+      @include font-links-breakPoint(16px, 28px);
       letter-spacing: 0.5px;
     }
   

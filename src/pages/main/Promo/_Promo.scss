@@ -74,7 +74,7 @@
 
   @include breakPoint($screen-desctop-mini) {
     &__title {
-      @include font-text(40px, 50px);
+      @include font-text-breakPoint(40px, 50px);
       max-width: 520px;
     }
   }
@@ -125,7 +125,7 @@
   
     &__title {
       margin: 45px 0 0;
-      @include font-text(28px, 38px);
+      @include font-text-breakPoint(28px, 38px);
     }
   
     &__subtitle {

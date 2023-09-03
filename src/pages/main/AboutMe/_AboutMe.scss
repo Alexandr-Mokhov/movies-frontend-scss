@@ -77,16 +77,16 @@
     }
 
     &__name {
-      @include font-text(40px, 40px);
+      @include font-text-breakPoint(40px, 40px);
     }
 
     &__profession {
-      @include font-text(12px, 18px);
+      @include font-text-breakPoint(12px, 18px);
       margin: 16px 0 0;
     }
 
     &__biography {
-      @include font-text(12px, 18px);
+      @include font-text-breakPoint(12px, 18px);
       margin: 20px 0 87px;
     }
 
@@ -112,7 +112,7 @@
     }
   
     &__name {
-      @include font-text(40px, 48px);
+      @include font-text-breakPoint(40px, 48px);
       margin: 40px 0 0;
     }
   }
@@ -123,7 +123,7 @@
     }
   
     &__title {
-      @include font-text(18px, 22px);
+      @include font-text-breakPoint(18px, 22px);
       letter-spacing: -0.72px;
     }
   
@@ -132,17 +132,17 @@
     }
   
     &__name {
-      @include font-text(30px, 36px);
+      @include font-text-breakPoint(30px, 36px);
       letter-spacing: -1.2px;
     }
   
     &__profession {
-      @include font-text(11px, 16px);
+      @include font-text-breakPoint(11px, 16px);
       margin: 20px 0 0;
     }
   
     &__biography {
-      @include font-text(11px, 16px);
+      @include font-text-breakPoint(11px, 16px);
       margin: 20px 0 40px;
     }
   }

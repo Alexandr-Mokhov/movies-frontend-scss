@@ -173,7 +173,7 @@
       padding-left: 12px;
     
       &::placeholder {
-        @include font-text(16px, 16px);
+        @include font-text-breakPoint(16px, 16px);
       }
     }
   
@@ -187,7 +187,7 @@
     }
   
     &__new-checkbox {
-      @include font-text(11px, 18px);
+      @include font-text-breakPoint(11px, 18px);
     }
   
     &__line {

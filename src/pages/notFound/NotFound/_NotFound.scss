@@ -66,16 +66,16 @@
     }
   
     &__title {
-      @include font-text(80px, 97px);
+      @include font-text-breakPoint(80px, 97px);
       margin: 0 0 10px;
     }
   
     &__subtitle {
-      @include font-text(12px, 15px);
+      @include font-text-breakPoint(12px, 15px);
     }
   
     &__back {
-      @include font-text(12px, 15px);
+      @include font-text-breakPoint(12px, 15px);
     }
   }
 }

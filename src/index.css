@@ -378,7 +378,6 @@ select:-webkit-autofill:focus {
   .promo__title {
     font-size: 40px;
     line-height: 50px;
-    font-weight: 400;
     max-width: 520px;
   }
 }
@@ -421,7 +420,6 @@ select:-webkit-autofill:focus {
     margin: 45px 0 0;
     font-size: 28px;
     line-height: 38px;
-    font-weight: 400;
   }
   .promo__subtitle {
     margin: 25px 0 0;
@@ -513,7 +511,6 @@ select:-webkit-autofill:focus {
   .about-project__info-subtitle {
     font-size: 12px;
     line-height: 18px;
-    font-weight: 400;
     margin: 22px 0 0;
   }
   .about-project__time-line {
@@ -527,7 +524,6 @@ select:-webkit-autofill:focus {
   .about-project__title {
     font-size: 18px;
     line-height: 22px;
-    font-weight: 400;
     letter-spacing: -0.72px;
   }
   .about-project__info {
@@ -538,14 +534,12 @@ select:-webkit-autofill:focus {
   .about-project__info-title {
     font-size: 18px;
     line-height: 22px;
-    font-weight: 400;
     margin: 58px 0 0;
     letter-spacing: -0.7px;
   }
   .about-project__info-subtitle {
     font-size: 11px;
     line-height: 16px;
-    font-weight: 400;
     margin: 16px 0 0;
   }
   .about-project__time-line {
@@ -556,7 +550,6 @@ select:-webkit-autofill:focus {
   .about-project__time-line-text {
     font-size: 11px;
     line-height: 35px;
-    font-weight: 400;
   }
   .about-project__time-name {
     margin-top: 10px;
@@ -565,7 +558,6 @@ select:-webkit-autofill:focus {
   .about-project__time-name-text {
     font-size: 11px;
     line-height: 13px;
-    font-weight: 500;
   }
 }
 
@@ -645,7 +637,6 @@ select:-webkit-autofill:focus {
   .techs__subtitle-info {
     font-size: 12px;
     line-height: 18px;
-    font-weight: 400;
     margin: 22px 0 0;
   }
   .techs__grid {
@@ -657,7 +648,6 @@ select:-webkit-autofill:focus {
   .techs__grid-item {
     font-size: 12px;
     line-height: 15px;
-    font-weight: 400;
     min-height: 57px;
     box-sizing: border-box;
   }
@@ -669,20 +659,17 @@ select:-webkit-autofill:focus {
   .techs__title {
     font-size: 18px;
     line-height: 22px;
-    font-weight: 400;
     letter-spacing: -0.72px;
   }
   .techs__subtitle {
     font-size: 30px;
     line-height: 36px;
-    font-weight: 400;
     margin: 60px 0 0;
     letter-spacing: -1.2px;
   }
   .techs__subtitle-info {
     font-size: 11px;
     line-height: 16px;
-    font-weight: 400;
     margin: 24px 0 0;
   }
   .techs__grid {
@@ -772,18 +759,15 @@ select:-webkit-autofill:focus {
   .about-me__name {
     font-size: 40px;
     line-height: 40px;
-    font-weight: 400;
   }
   .about-me__profession {
     font-size: 12px;
     line-height: 18px;
-    font-weight: 400;
     margin: 16px 0 0;
   }
   .about-me__biography {
     font-size: 12px;
     line-height: 18px;
-    font-weight: 400;
     margin: 20px 0 87px;
   }
   .about-me__photo {
@@ -806,7 +790,6 @@ select:-webkit-autofill:focus {
   .about-me__name {
     font-size: 40px;
     line-height: 48px;
-    font-weight: 400;
     margin: 40px 0 0;
   }
 }
@@ -817,7 +800,6 @@ select:-webkit-autofill:focus {
   .about-me__title {
     font-size: 18px;
     line-height: 22px;
-    font-weight: 400;
     letter-spacing: -0.72px;
   }
   .about-me__photo {
@@ -826,19 +808,16 @@ select:-webkit-autofill:focus {
   .about-me__name {
     font-size: 30px;
     line-height: 36px;
-    font-weight: 400;
     letter-spacing: -1.2px;
   }
   .about-me__profession {
     font-size: 11px;
     line-height: 16px;
-    font-weight: 400;
     margin: 20px 0 0;
   }
   .about-me__biography {
     font-size: 11px;
     line-height: 16px;
-    font-weight: 400;
     margin: 20px 0 40px;
   }
 }
@@ -932,10 +911,6 @@ select:-webkit-autofill:focus {
   .portfolio__link {
     font-size: 16px;
     line-height: 28px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.5s ease;
-    text-decoration: none;
     letter-spacing: 0.5px;
   }
   .portfolio__link-arrow {
@@ -1075,7 +1050,6 @@ select:-webkit-autofill:focus {
   .footer__title {
     font-size: 12px;
     line-height: 15px;
-    font-weight: 400;
   }
   .footer__info {
     flex-direction: column-reverse;
@@ -1084,7 +1058,6 @@ select:-webkit-autofill:focus {
   .footer__copyright {
     font-size: 12px;
     line-height: 15px;
-    font-weight: 400;
     margin: 28px 0 0;
   }
   .footer__links {
@@ -1101,10 +1074,6 @@ select:-webkit-autofill:focus {
   .footer__link {
     font-size: 12px;
     line-height: 15px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.5s ease;
-    text-decoration: none;
   }
 }
 
@@ -1225,13 +1194,11 @@ select:-webkit-autofill:focus {
   .form__button {
     font-size: 12px;
     line-height: 14px;
-    font-weight: 400;
     margin: 10px 0 14px;
   }
   .form__login {
     font-size: 12px;
     line-height: 15px;
-    font-weight: 400;
   }
 }
 
@@ -1311,7 +1278,6 @@ select:-webkit-autofill:focus {
   .info-tooltip__title {
     font-size: 20px;
     line-height: 24px;
-    font-weight: 900;
   }
 }
 @media screen and (max-width: 315px) {
@@ -1319,7 +1285,6 @@ select:-webkit-autofill:focus {
     max-width: calc(100vw - 100px);
     font-size: 18px;
     line-height: 22px;
-    font-weight: 900;
     text-overflow: ellipsis;
     overflow: hidden;
   }
@@ -1411,12 +1376,10 @@ select:-webkit-autofill:focus {
     line-height: 15px;
     font-size: 12px;
     line-height: 15px;
-    font-weight: 400;
   }
   .movies-card__time {
     font-size: 10px;
     line-height: 12px;
-    font-weight: 400;
   }
 }
 
@@ -1608,8 +1571,8 @@ select:-webkit-autofill:focus {
   .navigation__link {
     display: block;
     font-size: 18px;
-    font-weight: 500;
     line-height: 26px;
+    font-weight: 500;
     min-height: 26px;
     margin: 0 0 24px 0;
     color: #000;
@@ -1896,12 +1859,10 @@ select:-webkit-autofill:focus {
   .search-form__input::-moz-placeholder {
     font-size: 16px;
     line-height: 16px;
-    font-weight: 400;
   }
   .search-form__input::placeholder {
     font-size: 16px;
     line-height: 16px;
-    font-weight: 400;
   }
   .search-form__checkbox-container {
     margin-top: 8px;
@@ -1913,7 +1874,6 @@ select:-webkit-autofill:focus {
   .search-form__new-checkbox {
     font-size: 11px;
     line-height: 18px;
-    font-weight: 400;
   }
   .search-form__line {
     margin-top: 64px;
@@ -2026,18 +1986,15 @@ select:-webkit-autofill:focus {
   .not-found__title {
     font-size: 80px;
     line-height: 97px;
-    font-weight: 400;
     margin: 0 0 10px;
   }
   .not-found__subtitle {
     font-size: 12px;
     line-height: 15px;
-    font-weight: 400;
   }
   .not-found__back {
     font-size: 12px;
     line-height: 15px;
-    font-weight: 400;
   }
 }
 

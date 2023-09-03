@@ -76,7 +76,7 @@
     }
   
     &__subtitle-info {
-      @include font-text(12px, 18px);
+      @include font-text-breakPoint(12px, 18px);
       margin: 22px 0 0;
     }
   
@@ -88,7 +88,7 @@
     }
   
     &__grid-item {
-      @include font-text(12px, 15px);
+      @include font-text-breakPoint(12px, 15px);
       min-height: 57px;
       box-sizing: border-box;
     }
@@ -100,18 +100,18 @@
     }
   
     &__title {
-      @include font-text(18px, 22px);
+      @include font-text-breakPoint(18px, 22px);
       letter-spacing: -0.72px;
     }
   
     &__subtitle {
-      @include font-text(30px, 36px);
+      @include font-text-breakPoint(30px, 36px);
       margin: 60px 0 0;
       letter-spacing: -1.2px;
     }
   
     &__subtitle-info {
-      @include font-text(11px, 16px);
+      @include font-text-breakPoint(11px, 16px);
       margin: 24px 0 0;
     }
   
